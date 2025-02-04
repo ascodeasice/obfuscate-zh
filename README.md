@@ -7,6 +7,16 @@ This fork has extra features as listed:
 - support toggling obfuscation by pressing the extension icon multiple times
 - support obfuscating Chinese characters by using modified version of Flow-Circular font
 
+## Preview
+
+Original tab:
+
+![original tab](./images/original.png)
+
+Obfuscated tab:
+
+![obfuscated tab](./images/obfuscated.png)
+
 ## How to use
 
 1. git clone or download the entire repo
