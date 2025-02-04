@@ -2,11 +2,10 @@
 
 This is a fork of the [Obfuscate](https://gitlab.com/nin_/obfuscate/-/tree/main) browser extension on Gitlab, serving the same purpose of obfuscating text on current tab. To prevent showing unwanted info when doing a demo or taking screenshot.
 
-
 This fork has extra features as listed:
 
 - support toggling obfuscation by pressing the extension icon multiple times
-- support obfuscating Chinese characters by using modified version of Flow-Circular font
+- support obfuscating Chinese characters by modifying the Flow-Circular font
 
 ## Preview
 
