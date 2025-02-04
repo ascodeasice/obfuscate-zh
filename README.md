@@ -1,6 +1,7 @@
 # obfuscate-zh
 
-This is a fork of the [Obfuscate](https://gitlab.com/nin_/obfuscate/-/tree/main) browser extension on Gitlab, serving the same purpose of obfuscating text on current tab.
+This is a fork of the [Obfuscate](https://gitlab.com/nin_/obfuscate/-/tree/main) browser extension on Gitlab, serving the same purpose of obfuscating text on current tab. To prevent showing unwanted info when doing a demo or taking screenshot.
+
 
 This fork has extra features as listed:
 
