@@ -1,0 +1,45 @@
+{
+	"manifest_version": 3,
+	"name": "Obfuscate zh",
+	"description": "Toggle obfuscation of text on current tab, to prevent showing unwanted info when doing demo or taking a screenshot, supports Mandarin(Chinese)",
+	"version": "1.0",
+	"icons": {
+		"16": "images/icon-16.png",
+		"32": "images/icon-32.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_icon": {
+			"16": "images/icon-16.png",
+			"32": "images/icon-32.png",
+			"48": "images/icon-48.png",
+			"128": "images/icon-128.png"
+		}
+	},
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"obfuscate.ttf"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	],
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Alt+O",
+				"mac": "Option+O"
+			}
+		}
+	}
+}
