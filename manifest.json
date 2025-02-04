@@ -37,8 +37,7 @@
 	"commands": {
 		"_execute_action": {
 			"suggested_key": {
-				"default": "Alt+O",
-				"mac": "Option+O"
+				"default": "Alt+O"
 			}
 		}
 	}
